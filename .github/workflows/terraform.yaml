@@ -26,3 +26,5 @@ jobs:
         run: terraform fmt -check
       - name: plan
         run: terraform plan
+      - name: Create resource
+        run: terraform apply -auto-approve
