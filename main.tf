@@ -8,7 +8,7 @@ resource "aws_instance" "myEC2" {
 
   tags = {
     Name = "My2ndEC2"
-    Env = "prod"
+    Env  = "prod"
   }
 
 }
