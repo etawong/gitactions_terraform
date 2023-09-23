@@ -21,6 +21,7 @@ output "public_IP" {
 
 provider "aws" {
   region = "us-west-2"
+  profile = "default"
 }
 
 resource "aws_vpc" "test" {
