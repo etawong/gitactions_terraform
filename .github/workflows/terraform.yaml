@@ -25,6 +25,6 @@ jobs:
         run: terraform plan
       - name: create resource
         run: terraform apply -auto-approve
-      - name: destroy resource
-        run: terraform destroy -auto-approve
+      #- name: destroy resource
+        #run: terraform destroy -auto-approve
     
